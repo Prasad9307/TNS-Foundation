@@ -1,0 +1,60 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2f3e46;
+    color: #f0efeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #f5f3f4;
+    margin: 20px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.player p {
+    font-size: 1.2em;
+    color: #81b29a;
+}
+
+.player img {
+    width: 100px;
+    height: 100px;
+    background-color: #e63946;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #81b29a;
+    color: #f0efeb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #66a5ad;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #f5f3f4;
+}
